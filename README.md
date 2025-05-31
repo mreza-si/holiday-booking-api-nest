@@ -1,34 +1,39 @@
-# 🌍 Holiday Booking API
+# 🌍 Holiday Booking API – NestJS Version
 
-A RESTful backend API for a holiday booking platform, built with Node.js, Nest, and Mysql.
+A RESTful backend API for a holiday booking platform, built with **NestJS** and **MySQL**.
 
 ---
 
 ## 🚀 Features
 
-- ✅ User Register/Login (JWT)
-- ✅ Destination CRUD (with filtering)
-- ✅ Booking system
-- ✅ Simulated payment checkout
-- ✅ Postman Collection included
-- ✅ Modular architecture
+- ✅ JWT-based User Authentication
+- ✅ Destination CRUD with Filtering (location, price, rating)
+- ✅ Booking System for Logged-in Users
+- ✅ Simulated Payment Checkout
+- ✅ Modular Architecture
+- ✅ Postman Collection Included
 
 ---
 
 ## 🛠 Tech Stack
 
-- Node.js + Nest
-- MySql
-- JWT for authentication
-- Postman for API testing
+- NestJS
+- MySQL
+- TypeORM
+- Passport + JWT
+- Postman (for API testing)
 
+---
 
 ## 📬 Postman Collection
 
-You can view and test all API endpoints in this public Postman collection:
+Test all API endpoints using Postman:
 
-🔗 [Postman Collection (Holiday Booking API)](https://www.postman.com/collections/36641054-52ab8dce-19d9-44f1-9da5-d5b6e0ae4f5d)
+🔗 [Holiday Booking API – Postman Collection](https://www.postman.com/spaceflight-astronomer-40843412/workspace/booking-holiday-api-nest/collection/36641054-5424b9d7-91b7-4af5-ab91-410f34d1e77c?action=share&creator=36641054)
 
+> You can open this link in your browser or import the collection into Postman directly.
+
+---
 
 ## 🚀 Getting Started
 
@@ -36,5 +41,5 @@ You can view and test all API endpoints in this public Postman collection:
 
 ```bash
 git clone https://github.com/mreza-si/holiday-booking-api-nest.git
-cd holiday-booking-nest
+cd holiday-booking-api-nest
 npm install
